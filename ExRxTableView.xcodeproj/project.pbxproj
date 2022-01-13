@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44DA2C17AAA8C38D1D314B87 /* Pods_ExRxTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E27E2566757E452DC4B8B30 /* Pods_ExRxTableView.framework */; };
 		4A92A06727904FCF008F6642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A06627904FCF008F6642 /* AppDelegate.swift */; };
 		4A92A06927904FCF008F6642 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A06827904FCF008F6642 /* SceneDelegate.swift */; };
 		4A92A06B27904FCF008F6642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A06A27904FCF008F6642 /* ViewController.swift */; };
 		4A92A06E27904FCF008F6642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A92A06C27904FCF008F6642 /* Main.storyboard */; };
 		4A92A07027904FD0008F6642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A92A06F27904FD0008F6642 /* Assets.xcassets */; };
 		4A92A07327904FD0008F6642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A92A07127904FD0008F6642 /* LaunchScreen.storyboard */; };
+		4A92A07B27905250008F6642 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A07A27905250008F6642 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E27E2566757E452DC4B8B30 /* Pods_ExRxTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExRxTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A92A06327904FCF008F6642 /* ExRxTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExRxTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A92A06627904FCF008F6642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A92A06827904FCF008F6642 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		4A92A06F27904FD0008F6642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A92A07227904FD0008F6642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A92A07427904FD0008F6642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A92A07A27905250008F6642 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		9A15F0869A61382EF12AA1E3 /* Pods-ExRxTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExRxTableView.debug.xcconfig"; path = "Target Support Files/Pods-ExRxTableView/Pods-ExRxTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		B1ED2222A17F4D538CE700E0 /* Pods-ExRxTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExRxTableView.release.xcconfig"; path = "Target Support Files/Pods-ExRxTableView/Pods-ExRxTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DA2C17AAA8C38D1D314B87 /* Pods_ExRxTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				4A92A06527904FCF008F6642 /* ExRxTableView */,
 				4A92A06427904FCF008F6642 /* Products */,
+				7461627522F85237F8970DEB /* Pods */,
+				53E5450B91AA644893462CC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				4A92A06627904FCF008F6642 /* AppDelegate.swift */,
 				4A92A06827904FCF008F6642 /* SceneDelegate.swift */,
 				4A92A06A27904FCF008F6642 /* ViewController.swift */,
+				4A92A07A27905250008F6642 /* MyCell.swift */,
 				4A92A06C27904FCF008F6642 /* Main.storyboard */,
 				4A92A06F27904FD0008F6642 /* Assets.xcassets */,
 				4A92A07127904FD0008F6642 /* LaunchScreen.storyboard */,
 				4A92A07427904FD0008F6642 /* Info.plist */,
 			);
 			path = ExRxTableView;
+			sourceTree = "<group>";
+		};
+		53E5450B91AA644893462CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E27E2566757E452DC4B8B30 /* Pods_ExRxTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7461627522F85237F8970DEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A15F0869A61382EF12AA1E3 /* Pods-ExRxTableView.debug.xcconfig */,
+				B1ED2222A17F4D538CE700E0 /* Pods-ExRxTableView.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A92A07727904FD0008F6642 /* Build configuration list for PBXNativeTarget "ExRxTableView" */;
 			buildPhases = (
+				A7DE0CBE5743239F9E17F29C /* [CP] Check Pods Manifest.lock */,
 				4A92A05F27904FCF008F6642 /* Sources */,
 				4A92A06027904FCF008F6642 /* Frameworks */,
 				4A92A06127904FCF008F6642 /* Resources */,
+				A961BCB89376C2BED248C507 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7DE0CBE5743239F9E17F29C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExRxTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A961BCB89376C2BED248C507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExRxTableView/Pods-ExRxTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExRxTableView/Pods-ExRxTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExRxTableView/Pods-ExRxTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A92A05F27904FCF008F6642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4A92A06B27904FCF008F6642 /* ViewController.swift in Sources */,
+				4A92A07B27905250008F6642 /* MyCell.swift in Sources */,
 				4A92A06727904FCF008F6642 /* AppDelegate.swift in Sources */,
 				4A92A06927904FCF008F6642 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +356,7 @@
 		};
 		4A92A07827904FD0008F6642 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A15F0869A61382EF12AA1E3 /* Pods-ExRxTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +385,7 @@
 		};
 		4A92A07927904FD0008F6642 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1ED2222A17F4D538CE700E0 /* Pods-ExRxTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
